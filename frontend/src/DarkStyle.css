@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body.dark .color_background {
+  background-color: #121212;
+}
+/* Global Styles */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+body.dark h1,
+body.dark h2,
+body.dark h4,
+body.dark h6 {
+  color: #e0e0e0;
+}
+body.dark p {
+  color: #b0b0b0;
+}
+body.dark button.normal {
+  color: #e0e0e0;
+  background-color: #333;
+}
+
+body.dark #header {
+  background-color: #2e2c2c;
+  color: #e0e0e0;
+}
+body.dark #nav-bar a {
+  color: #e0e0e0;
+}
+body.dark #nav-bar a:hover,
+body.dark #nav-bar a.active {
+  color: #80cbc4;
+}
+body.dark #nav-bar li a.active::after,
+body.dark #nav-bar li a:hover::after {
+  background-color: #80cbc4;
+}
+
+body.dark #hero {
+  background-color: #1c1c1c;
+}
+body.dark #hero h4,
+body.dark #hero h1 {
+  color: #e0e0e0;
+}
+body.dark #hero .search-box {
+  background-color: #333;
+}
+body.dark #hero input {
+  color: #e0e0e0;
+}
+body.dark #hero button .fa-solid {
+  color: #e0e0e0;
+}
+body.dark .result-box {
+  background-color: #333;
+}
+body.dark .result-box li:hover {
+  background: #444;
+}
+
+body.dark #feature .fe-box {
+  background-color: #333;
+  border: 1px solid #555;
+}
+body.dark #feature .fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(76, 63, 221, 0.1);
+}
+
+body.dark #product1 .pro {
+  background-color: #333;
+  border: 1px solid #555;
+}
+body.dark #product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+body.dark #product1 .pro .des span {
+  color: #b0b0b0;
+}
+body.dark #product1 .pro .des h5 {
+  color: #e0e0e0;
+}
+body.dark #product1 .pro .des i {
+  color: #f1c40f;
+}
+body.dark #product1 .pro .des h4 {
+  color: #80cbc4;
+}
+body.dark #product1 .pro .cart {
+  background-color: #333;
+  border: 1px solid #555;
+  color: #80cbc4;
+}
+
+body.dark #banner {
+  background-color: #1f1f1f;
+}
+body.dark #banner h4,
+body.dark #banner h2 {
+  color: #e0e0e0;
+}
+body.dark button.white {
+  color: #333;
+  background-color: #e0e0e0;
+}
+body.dark button.white:hover {
+  background-color: #80cbc4;
+  color: #333;
+}
+
+body.dark #newsletter {
+  background-color: #333;
+}
+body.dark #newsletter h4 {
+  color: #e0e0e0;
+}
+body.dark #newsletter p {
+  color: #b0b0b0;
+}
+body.dark #newsletter input {
+  background-color: #444;
+  color: #e0e0e0;
+}
+body.dark #newsletter button {
+  background-color: #80cbc4;
+  color: #333;
+}
+
+body.dark footer {
+  background-color: #1f1f1f;
+}
+body.dark footer h4,
+body.dark footer p,
+body.dark footer a {
+  color: #e0e0e0;
+}
+body.dark footer .follow i {
+  color: #e0e0e0;
+}
+body.dark footer .follow i:hover,
+body.dark footer a:hover {
+  color: #80cbc4;
+}
+
+body.dark .footer .icon .fa-icon {
+  color: #f8f8f8;
+}
+
+body.dark .footer .copy-right {
+  border-top-color: #555;
+}
+/* chat bot */
+body.dark .chatbot-content {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+}
+body.dark .message.user {
+  background-color: #80cbc4;
+  color: #333;
+}
+body.dark .message.bot {
+  background-color: #333;
+  color: #e0e0e0;
+}
+body.dark .input-container input {
+  background-color: #444;
+  color: #e0e0e0;
+}
+body.dark .input-container {
+  background-color: #444;
+}
+body.dark .messages-container {
+  background-color: #444;
+}
+body.dark .input-container button {
+  background-color: #80cbc4;
+  color: #333;
+}
+body.dark .zigzag-step:hover {
+  background-color: #383535;
+}
+
+/* Dark mode for other sections */
+/* body.dark #contact-details .details {
+  background-color: #1f1f1f;
+} */
+body.dark #contact-details .details h2,
+body.dark #contact-details .details h3,
+body.dark #contact-details .details p {
+  color: #e0e0e0;
+}
+body.dark #contact-details .details li i {
+  color: #80cbc4;
+}
+body.dark #contact-details .details li p {
+  color: #b0b0b0;
+}
+/* 
+body.dark #form-details {
+  background-color: #1f1f1f;
+} */
+body.dark #form-details form input,
+body.dark #form-details form textarea {
+  background-color: #333;
+  color: #e0e0e0;
+}
+body.dark #form-details form button {
+  background-color: #80cbc4;
+  color: #333;
+}
+body.dark #form-details .people div p {
+  color: #b0b0b0;
+}
+body.dark #form-details .people div p span {
+  color: #e0e0e0;
+}
+
+body.dark #cart {
+  background-color: #1f1f1f;
+}
+body.dark #cart table {
+  color: #e0e0e0;
+}
+body.dark #cart table img {
+  border-color: #80cbc4;
+}
+
+body.dark #page-header {
+  background-color: #1c1c1c;
+}
+body.dark #page-header h2,
+body.dark #page-header p {
+  color: #e0e0e0;
+}
+
+body.dark #blog .blog-details a {
+  color: #80cbc4;
+}
+body.dark #blog .blog-box h1 {
+  color: #b0b0b0;
+}
+/* General styles for the button */
+.mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Styles for the icons */
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Additional styles for the moon icon */
+.moon-icon {
+  color: white;
+}
+
+/* Dark mode specific styles */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
